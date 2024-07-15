@@ -9,6 +9,10 @@ from datetime import timedelta
 from threading import Timer
 import pytz
 
+from keep_alive import keep_alive
+
+keep_alive()
+
 # Insert your Telegram bot token here
 bot = telebot.TeleBot('7193772857:AAF_JCnwg4tMg1XDVlRkRGXgADMxUXo2frM')
 
